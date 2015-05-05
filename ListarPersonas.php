@@ -3,23 +3,15 @@
 <head>
   <meta charset="utf-8" />
   <title>Lista de personas</title>
-<style>
-  body {background-color:#289e0c}
-  a    {color:#fff}
-  label    {color:#fff}  
-  table    {color:#fff}
-</style>
+  <link rel="stylesheet" type="text/css"  href="Estructura.css">
 </head>
 <body> 
-       
-    <a href="Index.php">New Person</a>ons</a>
-    <a href="PresentacionRemover.php">Delete Person</a>   
- <?php
-    /*
+    <div id = "h101"><h1>Person Manager</h1></div>
     <a href="Index.php">New Person</a>
     <a href="ListarPersonas.php">View Persons</a>
-    <a href="PresentacionRemover.php">Delete Person</a>     */
-    
+    <a href="PresentacionRemover.php">Delete Person</a> 
+ <?php
+           
     echo "<table style='border: solid 1px black;text-align:left;'>";
     echo "<tr><th>Id</th><th>Nombre</th><th>Apellido</th><th>Fecha de nacimiento</th><th>Pais</th><th>Sexo</th><th>Email</th><th>Usuario</th><th>Contraseña</th><th>Fecha de registro</th></tr>";
 
@@ -28,7 +20,6 @@
             parent::__construct($it, self::LEAVES_ONLY); 
         }
 
-    <a href="ListarPersonas.php">View Pers
         function current() {
             return "<td style='width:150px;border:1px solid black;text-align:left;'>" . parent::current(). "</td>";
         }
@@ -65,5 +56,6 @@
     $conn = null;
     echo "</table>";
   ?>
+ <div><p id ="p01">Copyright 2015 Universidad Catolica Nuestra Señora de la Asunbcion</p></div>
 </body>
 </html>

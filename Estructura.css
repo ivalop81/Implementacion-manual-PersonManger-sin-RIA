@@ -1,0 +1,28 @@
+body {background-color: #3f7506 }
+
+#h101   {
+    color:white;
+    text-align: left; 
+}
+#p01    {
+    color:white;
+    text-align: center;        
+}    
+
+
+#tabs {
+    position: absolute;
+			
+	height: 800px;
+				
+	width: 1000px;
+					
+	left: 100px;
+				
+	top: 0px;
+				
+}
+  a    {color:#fff}
+  label    {color:#fff}  
+  table    {color:#fff}
+  legend    {color:#fff}

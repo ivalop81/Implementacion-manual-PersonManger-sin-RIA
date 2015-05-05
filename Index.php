@@ -3,14 +3,10 @@
 <head>
   <meta charset="utf-8" />
   <title>Home</title>
-<style>
-  body {background-color:#289e0c}
-  a    {color:#fff}
-  label    {color:#fff}   
-</style>
+  <link rel="stylesheet" type="text/css"  href="Estructura.css">
 </head>
 <body>
-
+    <div id = "h101"><h1>Person Manager</h1></div>
     <a href="Index.php">New Person</a>
     <a href="ListarPersonas.php">View Persons</a>
     <a href="PresentacionRemover.php">Delete Person</a>
@@ -69,6 +65,6 @@
 	</p>
     </fieldset>
     </form> 
-    
+    <div><p id ="p01">Copyright 2015 Universidad Catolica Nuestra Señora de la Asunbcion</p></div> 
 </body>
 </html>
